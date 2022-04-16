@@ -7,11 +7,13 @@ import Navbar from "./components/navbar/Navbar"
 // PAGES
 import Login from "./pages/login/Login"
 import Home from "./pages/home/Home"
+import Profile from "./pages/profile/Profile"
 
 function App() {
 	return (
 		<React.Fragment>
-			<Login />
+			<Navbar />
+			<Profile />
 		</React.Fragment>
 	)
 }
