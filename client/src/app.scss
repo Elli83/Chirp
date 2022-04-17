@@ -1,9 +1,22 @@
 @import "_framework.scss";
 
+:root {
+	--bg-primary: #f4f8fb;
+	--bg-secondary: #fff;
+	--text: #222;
+}
+
+[data-theme="dark"] {
+	--bg-primary: #262e36;
+	--bg-secondary: #2f3740;
+	--text: #fff;
+}
+
 body {
 	margin: 0px;
 	font-family: Arial, Helvetica, sans-serif;
-	background: $secondary;
+	background: var(--bg-primary);
+	color: var(--text);
 }
 
 .page {

@@ -1,4 +1,17 @@
 // COLORS
 $primary: #2ba7f3;
-$secondary: #262e36;
-$tertiary: #2f3740;
+
+// THEMES
+$theme-dark: (
+	"background-a": #262e36,
+	"background-b": #2f3740,
+	"text": #fff,
+);
+
+@debug "test";
+
+$theme-light: (
+	"background-a": #f4f8fb,
+	"background-b": #fff,
+	"text": #fff,
+);
